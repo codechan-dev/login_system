@@ -1,0 +1,19 @@
+<h2>User List</h2>
+<mat-card><mat-list role="list">
+    <mat-list-item role="listitem" *ngFor="let user of users">{{ user.username }}</mat-list-item>
+ 
+  </mat-list>
+  </mat-card>
+
+
+<button mat-button (click)="logout()">Logout</button>
+<!-- <ul>
+  <li *ngFor="let user of users">{{ user.username }}</li>
+</ul> -->
+
+ <!-- <mat-selection-list>
+    <mat-list-option *ngFor="let user of users">
+      {{user.username}}
+    </mat-list-option>
+</mat-selection-list>  -->
+  
